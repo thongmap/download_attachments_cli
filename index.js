@@ -15,8 +15,7 @@ program.command("download")
         .action(async function download(WorkItemId,options) {                
             console.log(chalk.green("Establishing Azure Devops Server Connection..."))
             //Init connection
-            let orgUrl = config.get('azureServer.BaseUrl');
-            //let token = "o6e6i5u7gccxrujfjqlsm2fxws2yoap2xxo2viy2yn4bqfzrnrpq";       
+            let orgUrl = config.get('azureServer.BaseUrl');  
             let token = config.get('azureServer.Token');   
             let authHandler = azdev.getPersonalAccessTokenHandler(token); 
             let option = {
