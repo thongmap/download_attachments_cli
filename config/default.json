@@ -1,0 +1,11 @@
+{
+    "azureServer":{
+        "BaseUrl":"https://1543tfs.wgs.wuerth.com/WISCollection/",
+        "Token":"o6e6i5u7gccxrujfjqlsm2fxws2yoap2xxo2viy2yn4bqfzrnrpq",
+        "CertLocation":"./caFile/WuerthTrustCenter.crt"
+    },
+    "uipathServer":{
+        "BaseUrl":"",
+        "Token":""
+    }
+}

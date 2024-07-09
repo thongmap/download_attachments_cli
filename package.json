@@ -1,0 +1,22 @@
+{
+  "name": "azuredevopcli",
+  "version": "1.0.0",
+  "description": "Connect to azure devops server and download all attachments for single work item id",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "azure-devops-node-api": "^13.0.0",
+    "chalk": "^4.1.2",
+    "commander": "^12.0.0",
+    "conf": "^12.0.0",
+    "config": "^3.3.11",
+    "path.join": "^1.0.0"
+  },
+  "bin": {
+    "azureCli": "./index.js"
+  }
+}
